@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saylani Form</title>   
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center>
+      <img src="saylani.jpg" class="logo" />
+      <a href="#" class="heading">
+        <h1>Student Registration Form</h1>
+      </a>
+    </center>
+    <form action="submit.html" method="get" class="container" >
+      <div class="row">
+        <div class="paragraph">FIRST NAME</div>
+        <input
+          class="input"
+          type="text"
+          required
+          placeholder="Enter first name"
+          name="FIRST NAME"
+          size="15"
+          maxlength="15"
+        />
+        <span>(max 30 cahracters a-z and A-Z)</span>
+      </div>
+
+      <div class="row">
+        <span class="paragraph">LAST NAME</span>
+        <input
+          class="input"
+          type="text"
+          required
+          placeholder="Enter last name"
+          name="LAST NAME"
+          size="15"
+          maxlength="15"
+        />
+        <span>(max 30 cahracters a-z and A-Z)</span>
+      </div>
+
+      <div class="row">
+          <span class="paragraph">DATE OF BIRTH</span>
+        </span>
+        <input
+          class="input"
+          required
+          type="date"
+          placeholder="date"
+          name="DATE OF BIRTH"
+          size="15"
+          maxlength="15"
+          />
+      </div>
+
+      <div class="row">
+        <span class="paragraph">ENTER EMAIL ID</span>
+        <input
+          class="input"
+          type="email"
+          required
+          placeholder="Enter your email"
+          name="Enter EMAIL ID"
+          size="15"
+          maxlength="15"
+        />
+      </div>
+      <div class="row">
+        <span class="paragraph">MOBILE NUMBER</span>
+        <input
+          class="input"
+          type="number"
+          required
+          placeholder="Enter mobile number"
+          name="MOBILE NUMBER"
+          size="15"
+          maxlength="15"
+        />
+        <span>(10 digit number)</span>
+      </div>
+      <div class="row">
+      <span class="paragraph">Gender:</span>
+ <input type="radio" name="gender" id="male"
+ required
+ value="Male" />
+ <label for="male">Male</label>
+ <input type="radio" name="gender" id="female"
+ required
+
+ value="Female" />
+ <label for="female">Female</label><br />
+    </div>
+
+    <div class="row">
+      <span class="paragraph">ADRESS:</span>
+      <textarea name="adress" cols="40" rows="4" required></textarea>
+
+      <div class="row">
+        <div class="paragraph">CITY</div>
+        <input
+          class="input"
+          type="text"
+          required
+          placeholder="Enter city name"
+          name="CITY"
+          size="15"
+          maxlength="15"
+        />
+        <span>(max 30 cahracters a-z and A-Z)</span>
+      </div>
+
+      <div class="row">
+        <div class="paragraph">PIN CODE</div>
+        <input
+          class="input"
+          type="text"
+          required
+          placeholder="Enter pincode"
+          name="PIN CODE"
+          size="15"
+          maxlength="15"
+        />
+        <span>(6 digit number)</span>
+      </div>
+
+      <div class="row">
+        <div class="paragraph">STATE</div>
+        <input
+          class="input"
+          type="text"
+          required
+          placeholder="Enter state"
+          name="STATE"
+          size="15"
+          maxlength="15"
+        />
+        <span>(max 30 cahracters a-z and A-Z)</span>
+      </div>
+
+      <div class="row">
+        <div class="paragraph">COUNTRY</div>
+        <input
+          class="input"
+          type="text"
+          required
+          placeholder="Enter country"
+          name="COUNTRY"
+          size="15"
+          maxlength="15"
+        />
+      </div>
+
+      <div class="row">
+        <div class="paragraph">HOBBIES</div>
+        <input 
+        type="checkbox"
+        id="drawing" 
+        name="hobbies"
+        value="drawing">
+        <label for="drawing">Drawing</label>
+
+        <input 
+        type="checkbox"
+        id="singing" 
+        required
+        name="hobbies"
+        value="singing">
+        <label for="drawing">Singing</label>
+
+        <input 
+        type="checkbox"
+        id="dancing" 
+        required
+        name="hobbies"
+        value="dancing">
+        <label for="drawing">Dancing</label>
+
+        <input
+        type="checkbox"
+        id="stekching" 
+        required
+        name="hobbies"
+        value="stekching">
+        <label for="drawing">Stekching</label>
+        <br /> 
+        <div class="others">
+        <input type="text"
+         id="others" size="15" /> 
+        <label for="others">Others</label>
+       </div>
+    </div>
+
+    <div class="row">
+      <div class="paragraph">COUNTRY</div>
+      <input
+        class="input"
+        type="text"
+        required
+        placeholder="Enter country"
+        name="COUNTRY"
+        size="15"
+        maxlength="15"
+      />
+    </div>
+      <div class="row" style="display: flex;  align-items: center"> 
+      <div class="paragraph" style="margin-top: 50PX;">QUALIFICATION</div>
+      <table class="table"> 
+        <tr>
+          <td class="formit">
+            SI.NO Examination
+          </td>
+    
+          <td class="formit">
+            Board
+          </td>
+
+          <td class="formit">
+            Percantage
+          </td>
+
+          <td class="formit">
+            Year of passing
+          </td>
+        </tr>
+
+        <tr>
+          <td><ol><li>Class X</li></ol> </td>
+          <td>
+          <input type="text"
+          required name="Board" value="" />
+        </td>
+        <td>
+         <input type="text"
+         required name="Percantage" value="" />
+        </td>
+        <td>
+          <input type="text"
+          required name="Year of passing" value="" />
+        </td>
+          
+      </tr>
+
+      <tr>
+        <td><ol><li>Class XII</li></ol> </td>
+        <td>
+        <input type="text"
+        required name="Board" value="" />
+      </td>
+      <td>
+        <input type="text"
+        required name="Percantage" value="" />
+      </td>
+      <td>
+        <input type="text"
+        required name="Year of passing" value="" />
+      </td>
+        
+    </tr>
+    
+      
+    <tr>
+      <td><ol><li>Graduation</li></ol> </td>
+      <td>
+      <input type="text"
+      required name="Board" value="" />
+    </td>
+    <td>
+      <input type="text"
+      required name="Percantage" value="" />
+    </td>
+    <td>
+      <input type="text"
+      required name="Year of passing" value="" />
+    </td>
+      
+  </tr>
+  
+  <tr>
+    <td><ol><li>Masters</li></ol> </td>
+    <td>
+    <input type="text"
+    required name="Board" value="" />
+  </td>
+  <td>
+    <input type="text"
+    required name="Percantage" value="" />
+  </td>
+  <td>
+    <input type="text"
+    required name="Year of passing" value="" />
+  </td>
+</tr>
+
+ <td></td>
+ <td align="center">(10 char max)</td>  
+ <td align="center">(upto 2 decimal)</td>
+</table>
+      </div>
+     
+
+<div>
+  
+  <div class="hope1">
+    <span>
+      COURSES<br> APPLIED FOR
+    </span>
+    <div class="hope">
+  <input required type="radio" id="BCA" name="course applied for" value="BCA">
+  <label for="BCA">BCA</label>
+  <input required type="radio" id="B.Com" name="course applied for" value="B.Com">
+  <label for="B.Com">B.Com</label>
+  <input required type="radio" id="B.Sc" name="course applied for" value="B.Sc">
+  <label for="B.Sc">B.Sc</label>
+  <input required type="radio"id="B.A" name="course applied for" value="B.A">
+  <label for="B.A">B.A</label>
+</div>
+</div>
+</div>
+<p> 
+<br /><br />   
+<center>
+  <input type="submit">
+  <input type="reset" value="Reset"
+</center>
+</p>
+    </form>
+  </body>
+</html> 

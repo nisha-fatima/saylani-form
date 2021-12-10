@@ -1,0 +1,121 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    margin-top: 20px;
+}
+.heading{
+    color: olive;
+}
+.heading:hover{
+    color: royalblue;
+    text-decoration: none;
+}
+.paragraph{
+    margin: 0px 50px 0px 0px;
+    width: 125px;
+    display: inline-block;
+}
+
+.container{
+    background-color: #9986b8;
+    color: white;
+    padding: 10px 50px 50px 10px;
+    
+}
+.input{
+    width: 180px;
+}
+.row{
+    margin-top: 20px;
+    
+}
+.others{
+    margin-left: 204PX;
+}
+.table{
+    margin-top: 100px;
+}
+.table{
+    display: inline-block;
+}
+
+.formit{
+    width: 150px;
+    text-align: center;
+
+}
+.hope{
+    /* text-align: center; */
+    /* margin-right: 500px;*/
+    margin-left: 100px;
+    
+}
+.hope1{
+display: flex;
+align-items: center;
+margin-top: 10px;
+    
+}
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
